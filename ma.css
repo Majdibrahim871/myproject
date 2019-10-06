@@ -1,0 +1,57 @@
+
+section {
+    margin: 100px auto;
+    width: 400px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: -5px -5px 20px #747373;}
+
+    .add{
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        left: 24px;}
+
+
+    .xl input[type="text"] {
+        width: 95%;
+        height: 45px;
+        border-radius: 7px;
+        background: #eaeceb;
+        border: none;
+        margin: 10px;
+        padding-left: 15px;
+        outline: none;
+        font-size: 19px;
+        padding-left: 50px;
+    }
+    .xl input[type="text"]:focus {
+        background: #d9d9d7;
+    }
+    
+    .xl input[type="text"]::placeholder {
+        opacity: .2;
+    }
+    
+    .xl {
+        position: relative;
+    }
+
+    .xm {
+        position: absolute;
+        top: 20px;
+        right: 24px;
+        visibility: hidden;
+        cursor: pointer;
+    }
+
+
+
+.yym {transition: 0.5s;
+    position: relative;
+}
+.img done{
+    transition: 0.5s;
+      position: relative;
+  }
